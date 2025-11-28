@@ -142,3 +142,49 @@ header {
     font-size: 20px;
     line-height: 25px;
 }
+
+.courses {
+    width: 100%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 80px 0;
+}
+
+.courses__cardContainer {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.courses__card {
+    display: flex;
+    flex-direction: column;
+}
+
+.courses__cardImg {
+    width: 250px;
+    display: flex;
+}
+
+.courses__img {
+    width: 250px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.courses__text {
+    color: rgb(180, 180, 180);
+}
+
+.courses__link {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(58, 58, 172);
+}
