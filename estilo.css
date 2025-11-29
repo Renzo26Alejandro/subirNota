@@ -197,6 +197,7 @@ header {
     align-items: center;
     padding: 50px 0;
     gap: 40px;
+    margin-bottom: 50px;
 }
 
 .contact__textContainer {
@@ -240,4 +241,30 @@ header {
     background-color: rgb(0, 82, 165);
     color: rgb(255, 255, 255);
     border: none;
+}
+
+.footer {
+    width: 100%;
+    background-color: rgb(189, 252, 231);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 25px 0;
+    font-size: 10px;
+    gap: 5px;
+}
+
+.footer__linkContainer {
+    display: flex;
+    gap: 15px;
+}
+
+.footer__link {
+    text-decoration: none;
+    color: rgb(0, 68, 255);
+}
+
+.footer__text {
+    color: rgb(0, 68, 255);
 }
