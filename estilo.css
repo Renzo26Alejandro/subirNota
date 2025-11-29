@@ -188,3 +188,56 @@ header {
     font-size: 20px;
     color: rgb(58, 58, 172);
 }
+
+.contact {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    gap: 40px;
+}
+
+.contact__textContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact__text--linkDecoration {
+    text-decoration: none;
+    color: rgb(0, 82, 165);
+}
+
+.contact__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    gap: 10px;
+}
+
+.contact__formInput {
+    width: 96%;
+    padding: 10px;
+    border: 1px solid rgb(202, 216, 230);
+    border-radius: 5px;
+}
+
+.contact__formText {
+    width: 96%;
+    padding: 20px 10px;
+    border: 1px solid rgb(202, 216, 230);
+    border-radius: 5px;
+}
+
+.contact__formButton {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(0, 82, 165);
+    color: rgb(255, 255, 255);
+    border: none;
+}
